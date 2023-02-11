@@ -1,0 +1,16 @@
+.header_container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cat_fact_logo {
+    width: 40rem;
+}
+
+@media screen and (max-width: 500px){ 
+    
+    .cat_fact_logo {
+        width: 15rem;
+    }
+    
+}
