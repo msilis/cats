@@ -13,7 +13,31 @@ p {
     font-size: 1.25rem;
     font-weight: bold;
     margin-top: 2rem;
-    /* padding: 1rem; */
+}
+
+.fade_text {
+    animation: 2s animate-fade-text ease-out 1;
+}
+
+@keyframes animate-fade-text {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+        transform: translateY(0%);
+    }   
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
 
 @media  screen and (max-width: 800px) {

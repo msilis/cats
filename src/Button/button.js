@@ -1,3 +1,4 @@
+import React from 'react';
 import style from './button.module.css';
 
 export default function Button(props){
@@ -7,5 +8,5 @@ export default function Button(props){
         <div className={style.button_container} onClick={props.onClick}>
             <span className={style.button} >{buttonText}</span>
         </div>
-    )
+    ) 
 }

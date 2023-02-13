@@ -1,3 +1,4 @@
+import React from 'react';
 import style from './header.module.css';
 import catFactLogo from '../Media/Cat.png'
 

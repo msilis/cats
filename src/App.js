@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Button from './Button/button';
 import CatFact from './CatFact/catFact';
 import Footer from './Footer/footer';
@@ -9,7 +10,7 @@ function App() {
 
   const [getCatFact, setGetCatFact] = useState('')
 
-  async function handleButtonClick(event){
+  async function handleButtonClick(){
     /* event.persist(); */
       console.log('buton clicked')
       //call CatFact API
