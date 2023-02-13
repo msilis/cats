@@ -15,6 +15,7 @@ p {
     margin-top: 2rem;
 }
 
+/* Fact fade-in animation */
 .fade_text {
     animation: 2s animate-fade-text ease-out 1;
 }
