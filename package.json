@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "prettier": "prettier -w",
     "deploy": "gh-pages -d build",
     "watch": "watch 'npm run build' ./src"
   },
