@@ -4,7 +4,7 @@ import style from "./footer.module.css";
 export default function Footer() {
   return (
     <div className={style.footer_container}>
-      <p className={style.name}>Miks Silis</p>
+      <p className={style.name}>Miks Silis:</p>
       <a
         href="https://www.linkedin.com/in/miks-silis"
         target="_blank"

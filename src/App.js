@@ -10,8 +10,6 @@ function App() {
   const [getCatFact, setGetCatFact] = useState("");
 
   async function handleButtonClick() {
-    /* event.persist(); */
-    console.log("buton clicked");
     //call CatFact API
     const response = await fetch("https://catfact.ninja/fact?max_length=64");
     //convert response to JSON
